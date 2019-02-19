@@ -1,0 +1,4 @@
+bitbake linux-imx -c cleansstate - remove build directory from tmp 
+bitbake linux-imx -c compile - untar
+bitbake linux-imx -c compile -f - build 
+bitbake linux-imx - create image 
